@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: powderblue;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: powderblue;
+    transition: all 0.3s ease;
+}
+
+button{
+    margin: 20px;
+    font-size: 18px;
+    font-family: 'Poor Story';
+    background: white;
+    transition: 0.5s;
+    border-radius: 60%;
+}
+button:hover{
+    background: black;
+    color: white;
+}
+
+form{
+    padding: 10px;
+    width: 300px;
+    border: 2mm ridge #e0436b;
+}
+
+.wrap {
+    width: 360px;
+    margin: 0 auto;
+}
+.wrapp{
+    padding: 100px 0 0 100px;
+}
+
+.content {
+    margin-top: 400px;
+    padding: 10px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+.unredact {
+    color: red;
+}
+.redact {
+    color: darkblue;
+}
+
+.flexx{
+    display: flex;
+    width: 1060px;
+    justify-content: space-around;
+}
